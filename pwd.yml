@@ -48,7 +48,6 @@ services:
 
   create-site:
     image: custom:15
-    image: frappe/erpnext:v15.87.0
     networks:
       - frappe_network
     deploy:
